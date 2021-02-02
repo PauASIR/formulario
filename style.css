@@ -1,0 +1,98 @@
+body
+{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.recuadro
+{
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -15px;
+}
+header
+{
+    margin-bottom: 15px;
+}
+img.ing
+{
+    padding-left: 70px;
+    margin-top: 10px;
+}
+img.tel
+{
+    height: 40px;
+    float: right;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+section
+{
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+div.formulario
+{
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+h4
+{
+    font-size: 24px;
+    font-weight: lighter;
+}
+div.margen
+{
+    margin-left: 35px;
+}
+img.leon
+{
+    position: absolute;
+    bottom: -10%;
+    right: 11.4%;
+    width: 28%;
+}
+.boton
+{
+    color: white;
+    background-color: #ff6200;
+    width: 89%;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 20px;
+}
+a
+{
+    color: #333333;
+    text-decoration: underline gray;
+}
+span.naranja
+{
+    color: #ff6200;
+    font-size: 20px;
+}
+input[type="radio"]:checked::after
+{
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    top: -1px;
+    left: 2px;
+    position: relative;
+    background-color: #ff6200;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.checkbox input:checked
+{
+    background-color: white;
+    color: #ff6200;
+}

