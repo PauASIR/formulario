@@ -95,3 +95,9 @@ input[type="radio"]:checked::after
     background-color: white;
     color: #ff6200;
 }
+img.interrogante
+{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
