@@ -48,6 +48,12 @@ h4
     font-size: 24px;
     font-weight: lighter;
 }
+h5
+{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
 div.margen
 {
     margin-left: 35px;
@@ -77,13 +83,14 @@ span.naranja
 {
     color: #ff6200;
     font-size: 20px;
+    font-weight: bold;
 }
 input[type="radio"]:checked::after
 {
     width: 5px;
     height: 5px;
     border-radius: 15px;
-    top: -1px;
+    top: -1.3px;
     left: 2px;
     position: relative;
     background-color: #ff6200;
