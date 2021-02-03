@@ -32,6 +32,7 @@ section
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 30px;
+    position: relative;
 }
 div.formulario
 {
@@ -53,9 +54,10 @@ div.margen
 }
 img.leon
 {
- float: right;
- margin-top: 30%;
- width: 30%;
+position: absolute;
+right: 0px;
+bottom: 0px;
+width: 40%;
 }
 .boton
 {
@@ -100,4 +102,8 @@ img.interrogante
     width: 20px;
     height: 20px;
     vertical-align: middle;
+}
+.br
+{
+    line-height: 1000px;
 }
