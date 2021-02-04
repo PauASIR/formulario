@@ -17,9 +17,26 @@
     <div>
         <form action="web.php" method="POST">
             <h3 class="usuario">Empieza creando tu usuario</h3>
-            <input type="text" name="Nombre" id="Nombre" placeholder="   Nombre (como sale en el DNI)" class="nombre">
-            <input type="text" name="apellido1" id="apellido1" placeholder="   1º apellido (como sale en el DNI)">
-            <input type="text" name="appelido2" id="apellido2" placeholder="   2º apellido (como sale en el DNI)">
+            <p>
+                <input type="text" name="Nombre" id="Nombre" placeholder="   Nombre (como sale en el DNI)" class="formprop nombre">
+            </p>
+            <p>
+                <input type="text" name="apellido1" id="apellido1" placeholder="   1º apellido (como sale en el DNI)" class="formprop formprop2">
+                <input type="text" name="appelido2" id="apellido2" placeholder="   2º apellido (como sale en el DNI)" class="formprop formprop2 espaciadoform">
+            </p>
+            <p>
+                <select name="documento" id="documento" class="select formprop">
+                    <option>DNI/NIF/CERT.AEAT</option> 
+                </select>
+                <input type="text" name="numdoc" id="numdoc" class="formprop formprop2 espaciadoform" placeholder="   Número de documento">
+            </p>
+            <p>
+                <input type="tel" name="tel" id="tel" class="formprop formprop2" placeholder="   Móvil">
+                <input type="email" name="email" id="email" class="formprop formprop2 espaciadoform" placeholder="   Email">
+            </p>
+            <p>
+                <input type="submit" value="Siguiente" class="siguiente">
+            </p>
 
         </form>
     </div>

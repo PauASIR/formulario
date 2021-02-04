@@ -65,7 +65,7 @@ right: 0px;
 bottom: 0px;
 width: 40%;
 }
-.boton
+button.boton
 {
     color: white;
     background-color: #ff6200;
@@ -121,7 +121,7 @@ body.form2
     margin-right: 15%;
     font-family: sans-serif;
 }
-button.boton_bankinter
+.boton_bankinter
 {
     font-family: sans-serif;
     border-radius: 28px;
@@ -134,7 +134,7 @@ button.boton_bankinter
     padding-top: 8px;
     padding-bottom: 8px;
 }
-button.boton_bankinter:hover
+.boton_bankinter:hover
 {
     background-color: #f96a00;
     color: #f0f0f0;
@@ -165,10 +165,38 @@ h3.usuario
     font-weight: 100;
 
 }
-input.nombre
+.formprop
 {
-    width: 30%;
     height: 50px;
     border-color: grey;
     border-radius: 5px;
+}
+input.nombre
+{
+    width: 45%;
+}
+input.formprop2
+{
+    width: 21%;
+}
+input.espaciadoform
+{
+    margin-left: 1.8%;
+}
+select.select
+{
+    width: 21.7%;
+    height: 56px;
+}
+input.siguiente
+{
+    background-color: #f96a00;
+    color: #f0f0f0;
+    border-radius: 28px;
+    border: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 35%;
 }
