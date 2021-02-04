@@ -1,4 +1,4 @@
-body
+body.index
 {
     background-color: #f0f0f0;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +10,7 @@ div.recuadro
     margin-right: 150px;
     margin-top: -15px;
 }
-header
+header.header_index
 {
     margin-bottom: 15px;
 }
@@ -26,7 +26,7 @@ img.tel
     margin-top: 2%;
     margin-right: 10%;
 }
-section
+section.section_index
 {
     background-color: #f0f0f0;
     margin-left: 20px;
@@ -43,12 +43,12 @@ div.formulario
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px gray;
 }
-h4
+h4.area_clientes
 {
     font-size: 24px;
     font-weight: lighter;
 }
-h5
+h5.h5_form
 {
     font-size: 15px;
     font-weight: lighter;
@@ -112,5 +112,63 @@ img.interrogante
 }
 .br
 {
-    line-height: 1000px;
+    height: 15%;
+}
+body.form2
+{
+    background-color: #f0f0f0;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: sans-serif;
+}
+button.boton_bankinter
+{
+    font-family: sans-serif;
+    border-radius: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #f96a00;
+    border-color: #f96a00;
+    border: 1px solid;
+    float: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+button.boton_bankinter:hover
+{
+    background-color: #f96a00;
+    color: #f0f0f0;
+}
+button.invitacion
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+button.ayuda
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+}
+img.bankinter
+{
+    width: 15%;
+}
+h2.cliente
+{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 5%;
+}
+h3.usuario
+{
+    font-weight: 100;
+
+}
+input.nombre
+{
+    width: 30%;
+    height: 50px;
+    border-color: grey;
+    border-radius: 5px;
 }
